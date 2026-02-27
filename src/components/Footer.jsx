@@ -42,97 +42,132 @@ export default function Footer() {
                         <h2 className='text-xl sm:text-2xl md:text-3xl'>Quick Links</h2>
                         <div className='p-2 sm:p-3 md:p-4  gap-4'>
                             <NavLink to={"/"} className={'block gap-8  hover:text-red-600 hover:underline hover:decoration-2 hover:decoration-blue-800 transition-all duration-300 ease-in'}>Home</NavLink>
-                            <NavLink to={"/"} className={'block gap-8  hover:text-red-600 hover:underline hover:decoration-2 hover:decoration-blue-800 transition-all duration-300 ease-in my-3'}>About Us</NavLink>
-                            <NavLink to={"/"} className={'block gap-8  hover:text-red-600 hover:underline hover:decoration-2 hover:decoration-blue-800 transition-all duration-300 ease-in my-3'}>Business Class Flights</NavLink>
-                            <NavLink to={"/"} className={'block gap-8  hover:text-red-600 hover:underline hover:decoration-2 hover:decoration-blue-800 transition-all duration-300 ease-in my-3'}>Blogs</NavLink>
-                            <NavLink to={"/"} className={'block gap-8  hover:text-red-600 hover:underline hover:decoration-2 hover:decoration-blue-800 transition-all duration-300 ease-in my-3'}>Gift Vouchers</NavLink>
-                            <NavLink to={"/"} className={'block gap-8  hover:text-red-600 hover:underline hover:decoration-2 hover:decoration-blue-800 transition-all duration-300 ease-in my-3'}>Contact Us</NavLink>
+                            <NavLink to={"/about-us"} className={'block gap-8  hover:text-red-600 hover:underline hover:decoration-2 hover:decoration-blue-800 transition-all duration-300 ease-in my-3'}>About Us</NavLink>
+                            <NavLink to={"/search-flights"} className={'block gap-8  hover:text-red-600 hover:underline hover:decoration-2 hover:decoration-blue-800 transition-all duration-300 ease-in my-3'}>Search Flights</NavLink>
+                            <NavLink to={"/support"} className={'block gap-8  hover:text-red-600 hover:underline hover:decoration-2 hover:decoration-blue-800 transition-all duration-300 ease-in my-3'}>Supports</NavLink>
+                            <NavLink to={"/blogs"} className={'block gap-8  hover:text-red-600 hover:underline hover:decoration-2 hover:decoration-blue-800 transition-all duration-300 ease-in my-3'}>Blogs</NavLink>
+                          
+                            <NavLink to={"/contact-us"} className={'block gap-8  hover:text-red-600 hover:underline hover:decoration-2 hover:decoration-blue-800 transition-all duration-300 ease-in my-3'}>Contact Us</NavLink>
 
                         </div>
                     </div>
                     <div className='p-4 sm:p-5 md:p-6'>
                         <h2 className='text-xl sm:text-2xl md:text-3xl'>Supports</h2>
                         <div className='p-2 sm:p-3 md:p-4  gap-4'>
-                            <NavLink to={"/"} className={'block gap-8  hover:text-red-600 hover:underline hover:decoration-2 hover:decoration-blue-800 transition-all duration-300 ease-in'}>Privacy-Policy</NavLink>
-                            <NavLink to={"/"} className={'block gap-8  hover:text-red-600 hover:underline hover:decoration-2 hover:decoration-blue-800 transition-all duration-300 ease-in my-3'}>Term-And-Condition</NavLink>
-                            <NavLink to={"/"} className={'block gap-8  hover:text-red-600 hover:underline hover:decoration-2 hover:decoration-blue-800 transition-all duration-300 ease-in my-3'}>Booking-Steps</NavLink>
-                            <NavLink to={"/"} className={'block gap-8  hover:text-red-600 hover:underline hover:decoration-2 hover:decoration-blue-800 transition-all duration-300 ease-in my-3'}>Disclaimer</NavLink>
-                            <NavLink to={"/"} className={'block gap-8  hover:text-red-600 hover:underline hover:decoration-2 hover:decoration-blue-800 transition-all duration-300 ease-in my-3'}>Faq</NavLink>
-                            <NavLink to={"/"} className={'block gap-8  hover:text-red-600 hover:underline hover:decoration-2 hover:decoration-blue-800 transition-all duration-300 ease-in my-3'}>Features</NavLink>
+                            <NavLink to={"/privacy-policy"} className={'block gap-8  hover:text-red-600 hover:underline hover:decoration-2 hover:decoration-blue-800 transition-all duration-300 ease-in'}>Privacy-Policy</NavLink>
+                            <NavLink to={"/terms-and-conditions"} className={'block gap-8  hover:text-red-600 hover:underline hover:decoration-2 hover:decoration-blue-800 transition-all duration-300 ease-in my-3'}>Term-And-Condition</NavLink>
+                           
+                            <NavLink to={"/disclaimer"} className={'block gap-8  hover:text-red-600 hover:underline hover:decoration-2 hover:decoration-blue-800 transition-all duration-300 ease-in my-3'}>Disclaimer</NavLink>
+                            <NavLink to={"/faq"} className={'block gap-8  hover:text-red-600 hover:underline hover:decoration-2 hover:decoration-blue-800 transition-all duration-300 ease-in my-3'}>Faq</NavLink>
+                            <NavLink to={"/refund-and-cancellation-policy"} className={'block gap-8  hover:text-red-600 hover:underline hover:decoration-2 hover:decoration-blue-800 transition-all duration-300 ease-in my-3'}>Refund Policy</NavLink>
 
                         </div>
                     </div>
-                    <div className='p-4 sm:p-5 md:p-6'>
-                        <h2 className='text-xl sm:text-2xl md:text-3xl'>Contact Us</h2>
-                        <div className='p-2 sm:p-3 md:p-4  gap-4'>
-                           
-                            <div className='flex '>
-                                <div className='h-14 w-14 rounded-full bg-white text-blue-950 flex items-center justify-center'>
-                                    <NavLink to={''} className={'hover:text-red-600 transition-all duration-300 ease-in '}>
-                                        <MapPin className='text-2xl' size={28} />
-                                    </NavLink>
+                    <div className="p-4 sm:p-5 md:p-6">
+                        <h2 className="text-xl sm:text-2xl md:text-3xl mb-4">Contact Us</h2>
 
+                        <div className="grid grid-cols-1 gap-5">
+
+                            <div className="flex items-start gap-4">
+                                <div className="h-12 w-12 sm:h-14 sm:w-14 shrink-0 rounded-full bg-white text-blue-950 flex items-center justify-center">
+                                    <MapPin size={24} />
                                 </div>
-                                 <div className='ps-4'>
-                                <h2 className='text-lg sm:text-xl md:text-2xl'>Address:-</h2>
-                                <p className='text-sm sm:text-base hover:text-red-600 transition-all duration-300 ease-in'>A-16 Noida City Center</p>
-                            </div>
-                            </div>
-                            <div className='flex'>
-                                <div className='h-14 w-14 rounded-full bg-white text-blue-950 flex items-center justify-center mt-4'>
-                                <NavLink to={''} className={'hover:text-red-600 transition-all duration-300 ease-in'}>
-                                    <FaEnvelope className='text-2xl' />
-                                </NavLink>
-                            </div>
-                            <div className='ps-4 py-3'>
-                                <h2 className='text-lg sm:text-xl md:text-2xl'>Email:-</h2>
-                                <NavLink to={'mailto:support@gmail.com'} className='text-sm sm:text-base hover:text-red-600 transition-all duration-300 ease-in'>support@gmail.com</NavLink>
-                            </div>
-                            </div>
-                            <div className='flex'>
-                                <div className='h-14 w-14 rounded-full bg-white text-blue-950 flex items-center justify-center mt-4'>
-                                <NavLink to={''} className={'hover:text-red-600 transition-all duration-300 ease-in'}>
-                                    <PhoneCall className='text-2xl' />
-                                </NavLink>
-                            </div>
-                             <div className='ps-4 py-3'>
-                                <h2 className='text-lg sm:text-xl md:text-2xl'>Phone:-</h2>
-                                <NavLink to={'tel:9155014125'} className='text-sm sm:text-base hover:text-red-600 transition-all duration-300 ease-in'>9155014125</NavLink>
-                            </div>
+                                <div className="min-w-0">
+                                    <h2 className="text-sm sm:text-lg md:text-xl font-semibold">Address</h2>
+                                    <p className="text-sm sm:text-base break-words">
+                                        A-16 17662 Irvine Blvd, Suite 9, Tustin, CA 92780
+                                    </p>
+                                </div>
                             </div>
 
-                           <div className='flex'>
-                             <div className='h-14 w-14 rounded-full bg-white text-blue-950 flex items-center justify-center mt-4'>
-                                <NavLink to={''} className={'hover:text-red-600 transition-all duration-300 ease-in '}>
-                                    <FaWhatsapp className='text-2xl' />
-                                </NavLink>
-                            </div>
-                             <div className='ps-4 py-3'>
-                                <h2 className='text-lg sm:text-xl md:text-2xl'>Whatsapp:-</h2>
-                                <NavLink to={'https://wa.me/9155014125'} className='text-sm sm:text-base hover:text-red-600 transition-all duration-300 ease-in'>9155014125</NavLink>
-                            </div>
-                           </div>
 
+                            <div className="flex items-start gap-4">
+                                <div className="h-12 w-12 sm:h-14 sm:w-14 shrink-0 rounded-full bg-white text-blue-950 flex items-center justify-center">
+                                    <FaEnvelope className="text-xl" />
+                                </div>
+                                <div className="min-w-0">
+                                    <h2 className="text-sm sm:text-lg md:text-xl font-semibold">Email</h2>
+                                    <a
+                                        href="mailto:support@gmail.com"
+                                        className="text-sm sm:text-base break-all hover:text-red-600 transition"
+                                    >
+                                        support@gmail.com
+                                    </a>
+                                </div>
+                            </div>
+
+
+                            <div className="flex items-start gap-4">
+                                <div className="h-12 w-12 sm:h-14 sm:w-14 shrink-0 rounded-full bg-white text-blue-950 flex items-center justify-center">
+                                    <PhoneCall className="text-xl" />
+                                </div>
+                                <div className="min-w-0">
+                                    <h2 className="text-sm sm:text-lg md:text-xl font-semibold">Phone</h2>
+                                    <a
+                                        href="tel:9155014125"
+                                        className="text-sm sm:text-base hover:text-red-600 transition"
+                                    >
+                                        +91 55014 125
+                                    </a>
+                                </div>
+                            </div>
+
+
+                            <div className="flex items-start gap-4">
+                                <div className="h-12 w-12 sm:h-14 sm:w-14 shrink-0 rounded-full bg-white text-blue-950 flex items-center justify-center">
+                                    <FaWhatsapp className="text-xl" />
+                                </div>
+                                <div className="min-w-0">
+                                    <h2 className="text-sm sm:text-lg md:text-xl font-semibold">WhatsApp</h2>
+                                    <a
+                                        href="https://wa.me/9155014125"
+                                        className="text-sm sm:text-base hover:text-red-600 transition"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        Chat on WhatsApp
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <hr className='text-gray-600 p-2' />
-               
-                   <div className='p-2 sm:p-3 md:p-4 grid grid-cols-1 md:grid-cols-3'>
+
+                <div className='p-2 p w-full sm:p-3 md:p-4 grid grid-cols-1 md:grid-cols-2 gap-3'>
                     <p className='text-sm sm:text-base flex'>
                         <Copyright size={24} /> <p>2026 Malani Marble. All rights reserved</p>
                     </p>
-                    <div className='grid grid-cols-1 md:grid-cols-3'>
-                        <NavLink to={"/"} className={'ms-9  hover:text-red-600 hover:underline hover:decoration-2 hover:decoration-blue-800 transition-all duration-300 ease-in'}>Privacy-Policy</NavLink>
-                            <NavLink to={"/"} className={'ms-3  hover:text-red-600 hover:underline hover:decoration-2 hover:decoration-blue-800 transition-all duration-300 ease-in '}>Term-And-Condition</NavLink>
-                            <NavLink to={"/"} className={'ms-3  hover:text-red-600 hover:underline hover:decoration-2 hover:decoration-blue-800 transition-all duration-300 ease-in '}>Booking-Steps</NavLink>
+                    <div className='grid grid-cols-1 md:grid-cols-3 gap-2'>
+                        <NavLink to={"/privacy-policy"} className={'ms-3   hover:text-red-600 hover:underline hover:decoration-2 hover:decoration-blue-800 transition-all duration-300 ease-in'}>Privacy-Policy</NavLink>
+                        <NavLink to={"/terms-and-conditions"} className={'ms-3  hover:text-red-600 hover:underline hover:decoration-2 hover:decoration-blue-800 transition-all duration-300 ease-in '}>Term-And-Condition</NavLink>
+                        <NavLink to={"/refund-policy"} className={'ms-3  hover:text-red-600 hover:underline hover:decoration-2 hover:decoration-blue-800 transition-all duration-300 ease-in '}>Refund Policy</NavLink>
                     </div>
-                    <p className='text-sm sm:text-base '>
-                       <p>Develope and Design By <span className='text-red-600'>Risezonic</span></p>
+                    <p className='text-sm sm:text-base float-right '>
+                        <p>Develope and Design By <span className='text-red-600'>Risezonic</span></p>
                     </p>
-                   </div>
-              
+                </div>
+
             </footer>
+            <section>
+                <div className='fixed float-right right-1 bottom-40'>
+                    <div className='w-16 h-16 rounded-full bg-white shadow-2xl shadow-red-600 flex items-center justify-center'>
+                         <span className="absolute inset-0 rounded-full bg-blue-950 animate-ping opacity-20"></span>
+                      <NavLink to={'https://wa.me/9155014125'}>
+                        <FaWhatsapp className='text-green-600 text-4xl' />
+                      </NavLink>
+                    </div>
+                </div>
+                 <div className='fixed float-right right-1 bottom-15'>
+                    <div className='w-16 h-16 rounded-full bg-blue-600 shadow-2xl shadow-red-600 flex items-center justify-center'>
+                         <span className="absolute inset-0 rounded-full bg-blue-950 animate-ping opacity-20"></span>
+
+                      <NavLink to={'tel:9155014125'}>
+                        <PhoneCall className='text-white' size={30} />
+                      </NavLink>
+                    </div>
+                </div>
+            </section>
         </>
     )
 }
