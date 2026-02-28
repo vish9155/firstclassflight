@@ -44,7 +44,7 @@ export default function About() {
 
 
                     <div className="order-1 md:order-2 relative group overflow-hidden">
-                        <img src="/images/about/aboutintro.jpeg" alt="" className='h-[515px] w-[650px] group-hover:scale-100' />
+                        <img src="/images/about/aboutintro.jpeg" alt="" className='h-full w-full object-cover group-hover:scale-100' />
                     </div>
                 </div>
             </section>
@@ -89,10 +89,10 @@ export default function About() {
                                 <p className='text-justify text-sm sm:text-base text-gray-600 '>
 
                                     Call us at  <NavLink
-                                        to="tel:9155014125"
+                                        to="tel:8663075957"
                                         className="text-blue-600 hover:text-red-600  hover:underline transform hover:-translate-x-2 hover:decoration-2 hover:decoration-blue-800 transition-all duration-300 ease-in"
                                     >
-                                        9155014125
+                                        8663075957
                                     </NavLink> for personalized assistance, exclusive offline deals, or to request a free quote
                                 </p>
                             </div>
@@ -164,7 +164,7 @@ export default function About() {
                     </div>
                 </div>
             </section>
-             <section data-aos="zoom-in-right">
+            <section data-aos="zoom-in-right">
                 <div className='max-w-7xl mx-auto px-3 py-10 grid grid-cols-1 md:grid-cols-2 gap-8'>
                     <div className="order-2 md:order-1 space-y-4">
 
@@ -174,25 +174,25 @@ export default function About() {
                                 At First Flight Class, we believe that travel is more than just reaching a destination — it is about experiencing comfort, elegance, and peace of mind from the very first step of your journey. We specialize in delivering exclusive business and first-class flight solutions designed for travelers who value luxury, flexibility, and personalized service.
                             </p>
                             <p className='text-justify text-sm sm:text-base text-gray-600 p-1 sm:p-2 md:p-3'>
-                               What sets us apart is our commitment to offering more than just ticket bookings. We provide access to carefully negotiated premium fares that are not always available through standard online platforms. Through our strong global airline partnerships, we unlock exclusive business and first-class opportunities tailored to your schedule, preferences, and travel goals.
+                                What sets us apart is our commitment to offering more than just ticket bookings. We provide access to carefully negotiated premium fares that are not always available through standard online platforms. Through our strong global airline partnerships, we unlock exclusive business and first-class opportunities tailored to your schedule, preferences, and travel goals.
                             </p>
                             <p className='text-justify text-sm sm:text-base text-gray-600 p-1 sm:p-2 md:p-3'>
                                 Every client is assigned a dedicated travel expert who understands the importance of time, comfort, and attention to detail. From selecting the ideal route and cabin to managing seat preferences, special meal requests, and last-minute changes, our team handles every aspect with professionalism and precision. Your journey is curated around your priorities, ensuring a seamless and stress-free experience.
                             </p>
-                             <div className='p-2 sm:p-3 md:p-4'>
-                        <NavLink to={'tel:9155014125'} className={`p-4 mx-auto bg-blue-900 hover:bg-blue-600 rounded-xl text-white`}>Call Us Now</NavLink>
-                    </div>
+                            <div className='p-2 sm:p-3 md:p-4'>
+                                <NavLink to={'tel:8663075957'} className={`p-4 mx-auto bg-blue-900 hover:bg-blue-600 rounded-xl text-white`}>Call Us Now</NavLink>
+                            </div>
                         </div>
 
                     </div>
 
 
                     <div className="order-1 md:order-2 relative group overflow-hidden">
-                        <img src="" alt="" className='h-[515px] w-[650px] group-hover:scale-100' />
+                        <img src="/images/about/whychoose.jpeg" alt="" className='h-full w-full object-cover group-hover:scale-100' />
                     </div>
-                    
+
                 </div>
-               
+
             </section>
         </>
     )

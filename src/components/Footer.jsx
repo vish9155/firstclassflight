@@ -20,7 +20,7 @@ export default function Footer() {
                                 <NavLink to={''} className={'hover:text-red-600 transition-all duration-300 ease-in'}>
                                     <FaWhatsapp className='text-2xl' />
                                 </NavLink>
-                            </div>
+                            </div> 
                             <div className='h-14 w-14 rounded-full bg-white text-blue-950 flex items-center justify-center'>
                                 <NavLink to={''} className={'hover:text-red-600 transition-all duration-300 ease-in'}>
                                     <FaInstagram className='text-2xl' />
@@ -33,7 +33,7 @@ export default function Footer() {
                             </div>
                             <div className='h-14 w-14 rounded-full bg-white text-blue-950 flex items-center justify-center'>
                                 <NavLink to={''} className={'hover:text-red-600 transition-all duration-300 ease-in'}>
-                                    <FaFacebook className='text-2xl' />
+                                    <FaFacebook className='text-2xl' /> 
                                 </NavLink>
                             </div>
                         </div>
@@ -80,7 +80,6 @@ export default function Footer() {
                                 </div>
                             </div>
 
-
                             <div className="flex items-start gap-4">
                                 <div className="h-12 w-12 sm:h-14 sm:w-14 shrink-0 rounded-full bg-white text-blue-950 flex items-center justify-center">
                                     <FaEnvelope className="text-xl" />
@@ -91,7 +90,7 @@ export default function Footer() {
                                         href="mailto:support@gmail.com"
                                         className="text-sm sm:text-base break-all hover:text-red-600 transition"
                                     >
-                                        support@gmail.com
+                                       info@firstclassflight.com
                                     </a>
                                 </div>
                             </div>
@@ -104,7 +103,7 @@ export default function Footer() {
                                 <div className="min-w-0">
                                     <h2 className="text-sm sm:text-lg md:text-xl font-semibold">Phone</h2>
                                     <a
-                                        href="tel:9155014125"
+                                        href="tel:8663075957"
                                         className="text-sm sm:text-base hover:text-red-600 transition"
                                     >
                                         +91 55014 125
@@ -120,7 +119,7 @@ export default function Footer() {
                                 <div className="min-w-0">
                                     <h2 className="text-sm sm:text-lg md:text-xl font-semibold">WhatsApp</h2>
                                     <a
-                                        href="https://wa.me/9155014125"
+                                        href="https://wa.me/8663075957"
                                         className="text-sm sm:text-base hover:text-red-600 transition"
                                         target="_blank"
                                         rel="noreferrer"
@@ -153,7 +152,7 @@ export default function Footer() {
                 <div className='fixed float-right right-1 bottom-40'>
                     <div className='w-16 h-16 rounded-full bg-white shadow-2xl shadow-red-600 flex items-center justify-center'>
                          <span className="absolute inset-0 rounded-full bg-blue-950 animate-ping opacity-20"></span>
-                      <NavLink to={'https://wa.me/9155014125'}>
+                      <NavLink to={'https://wa.me/8663075957'}>
                         <FaWhatsapp className='text-green-600 text-4xl' />
                       </NavLink>
                     </div>
@@ -162,7 +161,7 @@ export default function Footer() {
                     <div className='w-16 h-16 rounded-full bg-blue-600 shadow-2xl shadow-red-600 flex items-center justify-center'>
                          <span className="absolute inset-0 rounded-full bg-blue-950 animate-ping opacity-20"></span>
 
-                      <NavLink to={'tel:9155014125'}>
+                      <NavLink to={'tel:8663075957'}>
                         <PhoneCall className='text-white' size={30} />
                       </NavLink>
                     </div>
