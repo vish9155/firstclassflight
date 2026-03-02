@@ -13,11 +13,7 @@ export default function Contactus() {
 
                     className="absolute inset-0 w-full h-full object-cover"
                 />
-
-
                 <div className="absolute inset-0 bg-black/40"></div>
-
-
                 <div className="relative z-10  h-full px-4 text-center">
                     <div className='flex items-center justify-center h-80 '>
                         <h1 className="text-white font-bold text-xl sm:text-2xl md:text-4xl lg:text-5xl max-w-4xl leading-snug">
