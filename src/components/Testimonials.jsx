@@ -93,7 +93,7 @@ export default function Testimonials() {
                 <p className="text-sm text-gray-700 leading-relaxed">
                   “{item.message}”
                 </p>
-              </div>
+              </div> 
             </SwiperSlide>
           ))}
         </Swiper>
