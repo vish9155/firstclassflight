@@ -35,7 +35,7 @@ export default function RefundPolicy() {
 
                     <div className='p-4 sm:p-5 md:p-6'>
                         <h2 className='text-xl sm:text-2xl md:text-3xl'>Accuracy of Information</h2>
-                        <p className='text-sm sm:text-base md:text-lg text-justify'>Although we do our best to provide correct and reliable information, we do not guarantee the correctness, completeness, or suitability (for any use by a customer) of the information provided on this website or sent by email, telephone, or any other means of communication. This includes (but is not limited to) the following:
+                        <p className='text-sm sm:text-base md:text-lg text-justify'>Although we do our best to provide correct and reliable information, we do not guarantee the correctness, completeness, or suitability (for any use by a customer) of the information provided on this website or sent by email, telephone, or any other means of communication. This includes but is not limited to the following:
                         </p>
                         <ul className='p-3 sm:p-4 md:p-5 list-disc list-inside pl-2'>
                             <li>Flight schedules</li>
