@@ -122,7 +122,7 @@ export default function HeroSection() {
 
                                     <div className='' >
                                         <div className='relative overflow-hidden group transition'>
-                                            <img src={item.img} alt="" className=' h-full w-full transition-all duration-300 group-hover:scale-110' />
+                                            <img src={item.img}  className=' h-full w-full transition-all duration-300 group-hover:scale-110' alt={`${item.img}`} />
                                         </div>
                                         <div className='p-1 sm:p-2 md:p-3'>
                                             <h2 className='text-lg sm:text-xl md:text-2xl text-center'>{item.country}</h2>

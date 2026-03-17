@@ -106,6 +106,7 @@ export default function Home() {
                     muted
                     playsInline
                     className="absolute inset-0 w-full h-full object-cover"
+                
                 />
 
 
@@ -150,7 +151,7 @@ export default function Home() {
                         </div>
                         <div className='order-2 md:order-2'>
                             <div className='relative group  overflow-hidden transition'>
-                                <img src="/images/home/Why Travelers Trust Our Flight Experts.jpg.jpeg" className='h-full w-full object-cover duration-300 group-hover:scale-110 ' alt="" />
+                                <img src="/images/home/Why Travelers Trust Our Flight Experts.jpg.jpeg" className='h-full w-full object-cover duration-300 group-hover:scale-110 ' alt="Why Travelers Trust Our Flight Experts" />
                             </div>
                         </div>
                     </div>
@@ -185,7 +186,7 @@ export default function Home() {
                         </div>
                         <div className='order-1 md:order-1'>
                             <div className='relative group  overflow-hidden transition'>
-                                <img src="/images/home/Corporate.jpg.jpeg" className='h-full w-full object-cover duration-300 group-hover:scale-110 ' alt="" />
+                                <img src="/images/home/Corporate.jpg.jpeg" className='h-full w-full object-cover duration-300 group-hover:scale-110 ' alt="Corporate Travel Management" />
                             </div>
                         </div>
                     </div>
@@ -236,7 +237,7 @@ export default function Home() {
                         </div>
                         <div className='order-2 md:order-2'>
                             <div className='relative group  overflow-hidden transition'>
-                                <img src="/images/home/Ready to Book  Your Premium Flight.jpg.jpeg" className='h-full w-full object-cover duration-300 group-hover:scale-110 ' alt="" />
+                                <img src="/images/home/Ready to Book  Your Premium Flight.jpg.jpeg" className='h-full w-full object-cover duration-300 group-hover:scale-110 ' alt="Ready to Book Your Premium Flight?" />
                             </div>
                         </div>
                     </div>

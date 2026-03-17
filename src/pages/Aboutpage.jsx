@@ -10,7 +10,7 @@ export default function Aboutpage() {
         <title>About First Class Flight | Premium Travel Experts</title>
         <meta name='description' content='Learn about First Class Flight, a trusted premium travel specialist helping travelers find first and business class flight deals worldwide.'></meta>
         <link rel="canonical" href="https://www.first-classflight.com/about-us" />
-    <Script type="application/ld+json">
+    <script type="application/ld+json">
           {`{
  "@context":"https://schema.org",
  "@type":"AboutPage",
@@ -28,7 +28,7 @@ export default function Aboutpage() {
 }
 
 `}
-        </Script>
+        </script>
       </Helmet>
       <About />
       <Testimonials />

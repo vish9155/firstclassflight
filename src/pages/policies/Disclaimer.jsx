@@ -28,7 +28,7 @@ export default function RefundPolicy() {
                     </div>
 
                     <div className='p-4 sm:p-5 md:p-6'>
-                        <h2 className='text-xl sm:text-2xl md:text-3xl'>Not a Carrier</h2>
+                        <h1 className='text-xl sm:text-2xl md:text-3xl'>Not a Carrier</h1>
                         <p className='text-sm sm:text-base md:text-lg text-justify'>First Class Flight is an agency and intermediary for airline tickets and travel bookings. We do not directly operate, control, or manage any airlines, transportation providers, or third-party providers of travel. All schedules, change fees, cancellation fees, flight availability, policies, etc. regarding air travel are completely at the discretion of the carrier/airline or respective provider.
                         </p>
                     </div>

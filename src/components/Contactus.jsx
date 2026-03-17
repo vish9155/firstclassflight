@@ -12,7 +12,7 @@ export default function Contactus() {
                     <title>Contact First Class Flight | Premium Flight Assistance</title>
                     <meta name='description' content='Contact First Class Flight for assistance with first class and business class bookings, flight deals, ticket questions, and premium travel support.'></meta>
                     <link rel="canonical" href="https://www.first-classflight.com/contact-us" />
-                    <Script type="application/ld+json">
+                    <script type="application/ld+json">
                         {
                             `{
  "@context":"https://schema.org",
@@ -36,12 +36,13 @@ export default function Contactus() {
 
 `
                         }
-                    </Script>
+                    </script>
                 </Helmet>
                 <img
                     src="/images/contact.jpeg"
 
                     className="absolute inset-0 w-full h-full object-cover"
+                    alt='contact-us banner'
                 />
                 <div className="absolute inset-0 bg-black/40"></div>
                 <div className="relative z-10  h-full px-4 text-center">
@@ -61,7 +62,7 @@ export default function Contactus() {
             </section>
             <section >
                 <div className=" mx-auto py-12 px-4 bg-blue-100 ">
-                    <h2 className='text-center text-lg sm:text-xl md:text-2xl'>We’re Here for Your Premium Travel Needs</h2>
+                    <h3 className='text-center text-lg sm:text-xl md:text-2xl'>We’re Here for Your Premium Travel Needs</h3>
                     <p className='max-w-5xl mx-auto p-2 sm:p-3 md:p-4 text-gray-600 text-sm sm:text-base text-center'>
                         We're here to help with any inquiries you have about booking your next first-class or business-class flight as well as answering any questions about quotes or providing help with existing reservations. With a first-class flight, you will experience exceptional customer service from initial contact until your flight is over with zero difficulties.
                     </p>

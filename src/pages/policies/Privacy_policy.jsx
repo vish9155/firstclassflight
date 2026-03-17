@@ -26,7 +26,7 @@ export default function PrivacyPolicy() {
                     </div>
 
                     <div className='p-4 sm:p-5 md:p-6'>
-                        <h2 className='text-xl sm:text-2xl md:text-3xl'>Information We Collect</h2>
+                        <h1 className='text-xl sm:text-2xl md:text-3xl'>Information We Collect</h1>
                         <p className='text-sm sm:text-base md:text-lg text-justify'>In order to provide our services, we may gather the following types of personal and travel information:
                         </p>
                         <div className='ms-3 p-4 sm:p-5 md:p-6'>

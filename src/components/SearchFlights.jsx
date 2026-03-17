@@ -21,7 +21,7 @@ export default function SearchFlights() {
                     <title>Search First & Business Class Flights | Compare Deals</title>
                     <meta name='description' content='Search and compare first class flights and business class flight deals worldwide. Find premium airline tickets and book the best luxury travel fares.'></meta>
                     <link rel="canonical" href="https://www.first-classflight.com/search-flights" />
-                    <Script type="application/ld+json">
+                    <script type="application/ld+json">
                         {
                             `{
  "@context":"https://schema.org",
@@ -39,7 +39,7 @@ export default function SearchFlights() {
 
 `
                         }
-                    </Script>
+                    </script>
                 </Helmet>
                 <img
                     src="/images/home/search.jpeg"
@@ -55,9 +55,9 @@ export default function SearchFlights() {
                             <h1 className="text-3xl md:text-5xl font-bold">
                                 Premium Business Class Flights at Exclusive Fares
                             </h1>
-                            <p className="mt-2 text-white/80">
+                            <h3 className="mt-2 text-white/80">
                                 Search Flights & Fly Premium
-                            </p>
+                            </h3>
                         </div>
 
 

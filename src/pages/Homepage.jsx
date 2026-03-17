@@ -8,7 +8,7 @@ export default function Homepage() {
         <title>First Class Flight Deals | Luxury & Discount Premium Airfare</title>
         <meta name="description" content='Find exclusive first class flight deals and premium airfare options for international travel. Compare luxury flight fares and book with confidence.'></meta>
         <link rel="canonical" href="https://www.first-classflight.com" />
-        <Script type="application/ld+json">
+        <script type="application/ld+json">
           {`{
   "@context": "https://schema.org",
   "@graph":[
@@ -67,7 +67,7 @@ export default function Homepage() {
 }
 
 `}
-        </Script>
+        </script>
       </Helmet>
       <Home />
     </>

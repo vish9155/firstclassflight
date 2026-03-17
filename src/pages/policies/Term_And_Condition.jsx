@@ -24,7 +24,7 @@ export default function TermsAndCondition() {
                         </p>
                     </div>
                     <div className='p-4 sm:p-5 md:p-6'>
-                        <h2 className='text-xl sm:text-2xl md:text-3xl'>Nature of Our Services</h2>
+                        <h1 className='text-xl sm:text-2xl md:text-3xl'>Nature of Our Services</h1>
                         <p className='text-sm sm:text-base md:text-lg text-justify'>
                             We will function as a travel agency and an intermediary between clients and the products offered by suppliers, including airlines. We do not own or control airlines, but we help our clients purchase airline tickets.
                         </p>

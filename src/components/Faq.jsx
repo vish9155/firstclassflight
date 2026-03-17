@@ -27,7 +27,7 @@ export default function Faq() {
                     <link rel="canonical" href="https://www.first-classflight.com/faq" />
                 </Helmet>
                 <div className='max-w-7xl mx-auto py-10 px-4'>
-                    <h2 className='text-center text-xl sm:text-2xl md:text-3xl p-3 sm:p-4 md:p-5'>Frequntly Asked Questions</h2>
+                    <h1 className='text-center text-xl sm:text-2xl md:text-3xl p-3 sm:p-4 md:p-5'>Frequntly Asked Questions</h1>
                     <div className='text-center m-auto'>
                         {
                             tabs.map((item, id) => (
@@ -50,7 +50,7 @@ export default function Faq() {
                                         <div key={id} className='border rounded-2xl overflow-hidden '>
                                             <button className={`flex items-center justify-between p-4 md:p-5 text-left w-full ${openIndex ? "bg-blue-900 text-white" : ""}`} onClick={() => setopen(openIndex ? null : id)}>
 
-                                                <span className=''>{item.question}</span>
+                                                <h3 className=''>{item.question}</h3>
                                                 <span className={`inline-block text-xl transition-transform duration-300 ${openIndex ? "rotate-45" : "rotate-0"}`}><FaPlus className='text-2xl' /></span>
                                             </button>
                                             <div className={`grid transition-all duration-300 ease-in-out ${openIndex ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"}`}>
