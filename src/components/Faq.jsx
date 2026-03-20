@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { faqdata } from '../data/faq'
+import { faqdata } from '../../../firstclassflight/src/data/faq'
 import { FaPlus } from 'react-icons/fa';
 import { Helmet } from 'react-helmet';
 const tabs = [

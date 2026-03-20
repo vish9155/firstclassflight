@@ -165,7 +165,7 @@ export default function SearchFlights() {
                             <div className="md:col-span-6 mt-4 text-center">
                                 <button
                                     type="submit"
-                                    className="bg-red-600 hover:bg-red-800 transition text-white px-10 py-3 rounded-full font-semibold shadow-xl hover:scale-105"
+                                    className="bg-red-600 hover:bg-red-700 transition text-white px-10 py-3 rounded-full font-semibold shadow-xl hover:scale-105"
                                 >
                                     Search Flights
                                 </button>
