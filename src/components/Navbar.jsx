@@ -48,7 +48,7 @@ export default function Navbar() {
                     <div className='hidden md:flex space-x-4'>
                         {
                             navitems.map((item, id) => (
-                                <NavLink key={id} className={'me-5 text-base  hover:text-red-600 text-white  hover:decoration-2 space-y-3 transition-all duration-300 ease-in'} to={item.path}>{item.title}</NavLink>
+                                <NavLink key={id} className={'me-5 text-base hover:underline hover:text-red-600 text-white  hover:decoration-2 space-y-3 transition-all duration-300 ease-in'} to={item.path}>{item.title}</NavLink>
                             ))
                         }
                     </div>
